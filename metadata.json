@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix MoveXpress - Premium Moving \u0026 Logistics",
+  "description": "A luxury-grade logistics, household moving, packing, office relocation and transportation web platform with real-time tracking, multi-step estimator, customer and admin operations dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
