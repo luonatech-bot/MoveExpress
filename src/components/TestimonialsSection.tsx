@@ -1,15 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Star, ChevronLeft, ChevronRight, Quote, CheckCircle, MapPin, Truck } from 'lucide-react';
 
-import avatarAmina from '../assets/images/avatar_amina_bello_1787441709015.jpg';
-import avatarBoma from '../assets/images/avatar_boma_briggs_1787441717981.jpg';
-import avatarIfeanyi from '../assets/images/avatar_ifeanyi_okeke_1787441729525.jpg';
-import avatarChinedu from '../assets/images/avatar_chinedu_okafor_1787441741003.jpg';
-import avatarOlawale from '../assets/images/avatar_olawale_adeyemi_1787441754255.jpg';
-import avatarZainab from '../assets/images/avatar_zainab_mohammed_1787441763724.jpg';
-import avatarNgozi from '../assets/images/avatar_ngozi_nwosu_1787441772941.jpg';
-import avatarBabajide from '../assets/images/avatar_babajide_oladipo_1787441782410.jpg';
-
 interface Testimonial {
   id: string;
   name: string;
@@ -33,7 +24,7 @@ const TESTIMONIALS: Testimonial[] = [
     location: 'Maitama, Abuja',
     route: 'Gwarinpa ➔ Maitama, Abuja',
     moveType: '4-Bedroom Duplex Relocation',
-    avatar: avatarAmina,
+    avatar: 'https://res.cloudinary.com/ddm7iixid/image/upload/v1787549331/1test_n9ottm.jpg',
     avatarType: 'hijab',
     rating: 5,
     date: '3 days ago',
@@ -47,7 +38,7 @@ const TESTIMONIALS: Testimonial[] = [
     location: 'Old GRA, Port Harcourt',
     route: 'Peter Odili Rd ➔ Old GRA, Port Harcourt',
     moveType: 'Executive Residence & Oilfield Home Office',
-    avatar: avatarBoma,
+    avatar: 'https://res.cloudinary.com/ddm7iixid/image/upload/v1787549332/2test_pmg1sj.jpg',
     avatarType: 'traditional',
     rating: 5,
     date: '4 days ago',
@@ -61,7 +52,7 @@ const TESTIMONIALS: Testimonial[] = [
     location: 'Independence Layout, Enugu',
     route: 'New Haven ➔ Independence Layout, Enugu',
     moveType: 'Medical Doctor Family Relocation',
-    avatar: avatarIfeanyi,
+    avatar: 'https://res.cloudinary.com/ddm7iixid/image/upload/v1787549331/3test_y2f1z7.jpg',
     avatarType: 'smart',
     rating: 5,
     date: '5 days ago',
@@ -75,7 +66,7 @@ const TESTIMONIALS: Testimonial[] = [
     location: 'Lekki Phase 1, Lagos',
     route: 'Orchid Rd, Lekki ➔ Lekki Phase 1',
     moveType: '3-Bedroom Apartment Move',
-    avatar: avatarChinedu,
+    avatar: 'https://res.cloudinary.com/ddm7iixid/image/upload/v1787549331/4test_qkf23j.jpg',
     avatarType: 'traditional',
     rating: 5,
     date: 'Last week',
@@ -89,7 +80,7 @@ const TESTIMONIALS: Testimonial[] = [
     location: 'Ikeja GRA, Lagos',
     route: 'Victoria Island ➔ Ikeja GRA',
     moveType: 'Medical Clinic & Executive Residence',
-    avatar: avatarOlawale,
+    avatar: 'https://res.cloudinary.com/ddm7iixid/image/upload/v1787549332/5test_tafuxy.jpg',
     avatarType: 'traditional',
     rating: 5,
     date: '2 weeks ago',
@@ -103,7 +94,7 @@ const TESTIMONIALS: Testimonial[] = [
     location: 'Kano to Abuja',
     route: 'Nassarawa GRA, Kano ➔ Wuse 2, Abuja',
     moveType: 'Interstate Household Move',
-    avatar: avatarZainab,
+    avatar: 'https://res.cloudinary.com/ddm7iixid/image/upload/v1787549331/6test_jlhasv.jpg',
     avatarType: 'hijab',
     rating: 5,
     date: '2 weeks ago',
@@ -117,7 +108,7 @@ const TESTIMONIALS: Testimonial[] = [
     location: 'Banana Island, Ikoyi',
     route: 'Oniru, VI ➔ Banana Island Estate, Ikoyi',
     moveType: 'Luxury Penthouse Move',
-    avatar: avatarNgozi,
+    avatar: 'https://res.cloudinary.com/ddm7iixid/image/upload/v1787549336/7test_knbciu.jpg',
     avatarType: 'smart',
     rating: 5,
     date: '3 weeks ago',
@@ -131,7 +122,7 @@ const TESTIMONIALS: Testimonial[] = [
     location: 'Bodija, Ibadan',
     route: 'Bodija, Ibadan ➔ Magodo Phase 2, Lagos',
     moveType: 'Family Relocation',
-    avatar: avatarBabajide,
+    avatar: 'https://res.cloudinary.com/ddm7iixid/image/upload/v1787549337/8test_tl4jng.jpg',
     avatarType: 'traditional',
     rating: 5,
     date: '1 month ago',

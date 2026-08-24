@@ -81,7 +81,7 @@ export const ServicesView: React.FC<ServicesViewProps> = ({
                   <ArrowRight className="w-4 h-4" />
                 </button>
                 <a
-                  href="https://wa.me/2349059876543?text=Hello%20ExpressMove,%20I%20would%20like%20to%20inquire%20about%20your%20moving%20services"
+                  href="https://wa.me/2348167629156?text=Hello%20ExpressMove,%20I%20would%20like%20to%20inquire%20about%20your%20moving%20services"
                   target="_blank"
                   rel="noreferrer"
                   className="px-4 sm:px-5 py-2.5 sm:py-3 rounded-xl bg-white hover:bg-emerald-50 border border-emerald-300 text-[#0B2E18] font-bold text-xs sm:text-sm transition-all flex items-center gap-2 cursor-pointer shadow-xs"
@@ -278,7 +278,7 @@ export const ServicesView: React.FC<ServicesViewProps> = ({
               <ArrowRight className="w-4 h-4" />
             </button>
             <a
-              href="https://wa.me/2349059876543?text=Hello%20ExpressMove,%20I%20am%20ready%20to%20schedule%20my%20move"
+              href="https://wa.me/2348167629156?text=Hello%20ExpressMove,%20I%20am%20ready%20to%20schedule%20my%20move"
               target="_blank"
               rel="noreferrer"
               className="px-5 py-3.5 rounded-xl bg-[#082E19] hover:bg-[#0B3B20] border border-white/30 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all cursor-pointer"

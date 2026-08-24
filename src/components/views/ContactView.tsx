@@ -17,7 +17,6 @@ import {
   ArrowRight
 } from 'lucide-react';
 import { WhatsAppIcon } from '../common/WhatsAppIcon';
-import supportRepImg from '../../assets/images/support_rep_agent_1787515073476.jpg';
 
 interface OfficeLocation {
   id: string;
@@ -38,7 +37,7 @@ const OFFICE_LOCATIONS: OfficeLocation[] = [
     badge: 'Main Commercial Branch',
     city: 'Lagos State',
     address: '2nd Floor, 315, 117A Shasha Road, Beside Mobil Filling Station, Jimoh-Shasha Bustop, Akowonjo, Lagos, Nigeria.',
-    phone: '+234 905 987 6543',
+    phone: '+234 816 762 9156',
     email: 'info@expressmove.com.ng',
     hours: 'Mon – Sat: 6:30 AM – 7:30 PM',
     mapQuery: 'https://www.google.com/maps/search/?api=1&query=315+117A+Shasha+Road+Beside+Mobil+Filling+Station+Akowonjo+Lagos+Nigeria',
@@ -49,7 +48,7 @@ const OFFICE_LOCATIONS: OfficeLocation[] = [
     badge: 'FCT Regional Command',
     city: 'Abuja (FCT)',
     address: 'Plot 1084, Joseph Gomwalk Street, Maitama Business District / CBD, Abuja, Nigeria.',
-    phone: '+234 905 987 6543',
+    phone: '+234 816 762 9156',
     email: 'info@expressmove.com.ng',
     hours: 'Mon – Sat: 7:00 AM – 7:00 PM',
     mapQuery: 'https://www.google.com/maps/search/?api=1&query=Maitama+Central+Business+District+Abuja+Nigeria',
@@ -60,7 +59,7 @@ const OFFICE_LOCATIONS: OfficeLocation[] = [
     badge: 'South-South Operations HQ',
     city: 'Rivers State',
     address: 'Rumuogunuma, Eneka Road, Port Harcourt, Rivers State, Nigeria.',
-    phone: '+234 905 987 6543',
+    phone: '+234 816 762 9156',
     email: 'info@expressmove.com.ng',
     hours: 'Mon – Sat: 7:00 AM – 7:00 PM',
     mapQuery: 'https://www.google.com/maps/search/?api=1&query=Rumuogunuma+Eneka+Road+Port+Harcourt+Rivers+State+Nigeria',
@@ -104,7 +103,7 @@ export const ContactView: React.FC = () => {
               {/* Photo Container */}
               <div className="relative rounded-2xl sm:rounded-[32px] overflow-hidden shadow-lg border border-slate-100 bg-slate-100 max-w-[480px] mx-auto lg:mx-0">
                 <img
-                  src={supportRepImg}
+                  src="https://res.cloudinary.com/ddm7iixid/image/upload/v1787549333/customerCareRep_j0ilm2.webp"
                   alt="ExpressMove Client Support Specialist"
                   className="w-full h-[360px] sm:h-[430px] object-cover object-top filter brightness-[1.02]"
                   loading="eager"
@@ -191,7 +190,7 @@ export const ContactView: React.FC = () => {
               {/* WhatsApp "LET'S CHAT" Button with Decorative Amber Indicator */}
               <div className="pt-2 flex items-center gap-6">
                 <a
-                  href="https://wa.me/2349059876543?text=Hello%20ExpressMove,%20I%20would%20like%20to%20get%20in%20touch%20for%20my%20relocation"
+                  href="https://wa.me/2348167629156?text=Hello%20ExpressMove,%20I%20would%20like%20to%20get%20in%20touch%20for%20my%20relocation"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2.5 px-8 py-3.5 sm:py-4 rounded-full bg-[#10B981] hover:bg-[#059669] text-white font-extrabold text-xs sm:text-sm uppercase tracking-wider shadow-lg shadow-emerald-500/25 hover:shadow-xl transition-all duration-200 hover:scale-[1.03] active:scale-[0.98] cursor-pointer"
@@ -213,8 +212,8 @@ export const ContactView: React.FC = () => {
                   </div>
                   <div>
                     <span className="font-semibold text-slate-500 block text-[11px]">Direct Telephone</span>
-                    <a href="tel:+2349059876543" className="font-bold text-slate-900 hover:text-[#008751]">
-                      +234 905 987 6543
+                    <a href="tel:+2348167629156" className="font-bold text-slate-900 hover:text-[#008751]">
+                      +234 816 762 9156
                     </a>
                   </div>
                 </div>
@@ -497,13 +496,13 @@ export const ContactView: React.FC = () => {
               </p>
 
               <a
-                href="https://wa.me/2349059876543?text=Hello%20ExpressMove,%20I%20am%20ready%20to%20send%20photos%20of%20my%20home%20for%20a%20quote"
+                href="https://wa.me/2348167629156?text=Hello%20ExpressMove,%20I%20am%20ready%20to%20send%20photos%20of%20my%20home%20for%20a%20quote"
                 target="_blank"
                 rel="noreferrer"
                 className="w-full py-3.5 rounded-xl bg-white hover:bg-emerald-50 text-[#008751] font-bold text-xs sm:text-sm flex items-center justify-center gap-2 shadow-sm transition-all block text-center"
               >
                 <WhatsAppIcon className="w-4 h-4 text-[#008751]" />
-                <span>WhatsApp: +234 905 987 6543</span>
+                <span>WhatsApp: +234 816 762 9156</span>
               </a>
             </div>
 

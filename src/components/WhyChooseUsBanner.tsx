@@ -28,7 +28,7 @@ export const WhyChooseUsBanner: React.FC<WhyChooseUsBannerProps> = ({
 }) => {
   const handleCall = () => {
     if (onOpenCallModal) onOpenCallModal();
-    else window.location.href = 'tel:+2349059876543';
+    else window.location.href = 'tel:+2348167629156';
   };
 
   const handleQuote = () => {
@@ -75,8 +75,12 @@ export const WhyChooseUsBanner: React.FC<WhyChooseUsBannerProps> = ({
   ];
 
   return (
-    <section className="bg-slate-50/80 border-b border-slate-200/80 py-12 sm:py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="bg-[#F3FAF6] border-b border-emerald-100/80 py-12 sm:py-16 relative overflow-hidden">
+      {/* Background Accent Ambient Glows */}
+      <div className="absolute top-1/3 left-0 -translate-y-1/2 w-80 h-80 bg-emerald-200/25 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-2/3 right-0 -translate-y-1/2 w-80 h-80 bg-[#74D600]/10 rounded-full blur-3xl pointer-events-none" />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Section Header with Pill matching < OUR SERVICES > */}
         <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-12 space-y-2.5">
@@ -86,7 +90,7 @@ export const WhyChooseUsBanner: React.FC<WhyChooseUsBannerProps> = ({
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-[#0B2E18] font-['Plus_Jakarta_Sans',sans-serif] tracking-tight">
             Why thousands of Nigerians trust ExpressMove
           </h2>
-          <p className="text-xs sm:text-sm text-slate-600 font-medium max-w-xl mx-auto">
+          <p className="text-xs sm:text-sm text-emerald-900/90 font-medium max-w-xl mx-auto">
             No casual road boys, no hidden fuel surcharges, and zero damage.
           </p>
         </div>
@@ -96,7 +100,7 @@ export const WhyChooseUsBanner: React.FC<WhyChooseUsBannerProps> = ({
           {pillars.map((pillar) => (
             <div 
               key={pillar.id}
-              className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-200/90 hover:border-[#74D600] shadow-xs hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between space-y-4 group relative overflow-hidden"
+              className="bg-white/95 hover:bg-white p-5 sm:p-6 rounded-2xl border border-emerald-100/90 hover:border-[#74D600] shadow-xs hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between space-y-4 group relative overflow-hidden"
             >
               {/* Subtle top ambient glow */}
               <div className="absolute top-0 right-0 w-24 h-24 bg-emerald-500/5 rounded-full blur-xl group-hover:bg-[#74D600]/15 transition-all" />
@@ -137,7 +141,7 @@ export const WhyChooseUsBanner: React.FC<WhyChooseUsBannerProps> = ({
           </div>
           <div className="flex items-center gap-2.5 shrink-0">
             <a
-              href="https://wa.me/2349059876543?text=Hello%20ExpressMove,%20I%20need%20moving%20assistance"
+              href="https://wa.me/2348167629156?text=Hello%20ExpressMove,%20I%20need%20moving%20assistance"
               target="_blank"
               rel="noreferrer"
               className="px-4 py-2 rounded-xl bg-[#74D600] text-[#052314] hover:bg-[#65bd00] text-xs font-black transition-all shadow-xs flex items-center gap-1.5"
@@ -150,7 +154,7 @@ export const WhyChooseUsBanner: React.FC<WhyChooseUsBannerProps> = ({
               className="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white text-xs font-bold transition-all flex items-center gap-1.5 cursor-pointer"
             >
               <Phone className="w-3.5 h-3.5 text-[#74D600]" />
-              <span>+234 905 987 6543</span>
+              <span>+234 816 762 9156</span>
             </button>
           </div>
         </div>

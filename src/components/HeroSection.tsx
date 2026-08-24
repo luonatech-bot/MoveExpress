@@ -11,12 +11,6 @@ import { PropertyType } from '../types';
 import { useMove } from '../context/MoveContext';
 import { formatCurrency } from '../utils/pricing';
 
-import heroVanBg from '../assets/images/expressmove_hero_van_1787508949682.jpg';
-import avatarAmina from '../assets/images/avatar_amina_bello_1787441709015.jpg';
-import avatarBoma from '../assets/images/avatar_boma_briggs_1787441717981.jpg';
-import avatarChinedu from '../assets/images/avatar_chinedu_okafor_1787441741003.jpg';
-import avatarNgozi from '../assets/images/avatar_ngozi_nwosu_1787441772941.jpg';
-
 interface HeroSectionProps {
   onStartEstimatorWithParams?: (params: {
     pickup: string;
@@ -79,17 +73,19 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
   };
 
   return (
-    <section className="relative flex items-center py-3.5 sm:py-5 lg:py-7 overflow-hidden bg-slate-900">
+    <section className="relative flex items-center py-14 sm:py-5 lg:py-7 min-h-[480px] sm:min-h-0 overflow-hidden bg-slate-900">
       
-      {/* Clean Dark Green Van Background with Slight Very Light Green Tint Overlay */}
+      {/* Clean Brightened Green Van Background with Soft Luminous Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src={heroVanBg}
-          alt="Clean Green Moving Van"
-          className="w-full h-full object-cover object-center"
+          src="https://res.cloudinary.com/ddm7iixid/image/upload/v1787549338/expressmoveHeroImage_q2ev6j.jpg"
+          alt="ExpressMove Relocation"
+          referrerPolicy="no-referrer"
+          className="w-full h-full object-cover object-center brightness-125 sm:brightness-[1.28] contrast-[1.03]"
         />
-        {/* Subtle, soft light green and gentle tint overlay (not overly dark) */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#031d10]/75 via-[#062c19]/55 to-[#0b3820]/40" />
+        {/* Soft, luminous light green gradient overlay (brightened) */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#031d10]/40 via-[#062c19]/25 to-[#0b3820]/15" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/15 via-transparent to-white/15" />
         <div className="absolute inset-0 bg-[#74D600]/10 mix-blend-overlay" />
       </div>
 
@@ -97,13 +93,13 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-7 items-center">
           
           {/* Left Column: Clean & Simple (Main text + Sub text + Avatar Head Rating) */}
-          <div className="lg:col-span-8 space-y-3 sm:space-y-4 text-center lg:text-left">
+          <div className="lg:col-span-8 space-y-4 sm:space-y-4 text-center lg:text-left py-4 sm:py-0">
             
             <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-[44px] font-black text-white tracking-tight leading-[1.14] font-['Plus_Jakarta_Sans',sans-serif] drop-shadow-sm">
               Moving made simple & stress-free across <span className="text-[#74D600]">Nigeria</span>.
             </h1>
 
-            <p className="text-xs sm:text-base text-emerald-50 max-w-xl mx-auto lg:mx-0 leading-relaxed font-normal drop-shadow-xs">
+            <p className="text-[11px] sm:text-base text-emerald-50 max-w-xl mx-auto lg:mx-0 leading-relaxed font-normal drop-shadow-xs">
               Professional home & office relocations across Lagos, Abuja, Port Harcourt, and nationwide. Experienced movers, estate gate pass clearance, and safe covered trucks.
             </p>
 
@@ -112,23 +108,27 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <div className="flex -space-x-2">
                 <img
                   className="inline-block h-7 w-7 sm:h-8 sm:w-8 rounded-full ring-2 ring-[#74D600] object-cover shadow-sm"
-                  src={avatarAmina}
+                  src="https://res.cloudinary.com/ddm7iixid/image/upload/v1787549331/1test_n9ottm.jpg"
                   alt="Amina Bello"
+                  referrerPolicy="no-referrer"
                 />
                 <img
                   className="inline-block h-7 w-7 sm:h-8 sm:w-8 rounded-full ring-2 ring-[#74D600] object-cover shadow-sm"
-                  src={avatarChinedu}
-                  alt="Chinedu Okafor"
-                />
-                <img
-                  className="inline-block h-7 w-7 sm:h-8 sm:w-8 rounded-full ring-2 ring-[#74D600] object-cover shadow-sm"
-                  src={avatarNgozi}
-                  alt="Ngozi Nwosu"
-                />
-                <img
-                  className="inline-block h-7 w-7 sm:h-8 sm:w-8 rounded-full ring-2 ring-[#74D600] object-cover shadow-sm"
-                  src={avatarBoma}
+                  src="https://res.cloudinary.com/ddm7iixid/image/upload/v1787549332/2test_pmg1sj.jpg"
                   alt="Engr. Boma"
+                  referrerPolicy="no-referrer"
+                />
+                <img
+                  className="inline-block h-7 w-7 sm:h-8 sm:w-8 rounded-full ring-2 ring-[#74D600] object-cover shadow-sm"
+                  src="https://res.cloudinary.com/ddm7iixid/image/upload/v1787549331/3test_y2f1z7.jpg"
+                  alt="Dr. Ifeanyi Okeke"
+                  referrerPolicy="no-referrer"
+                />
+                <img
+                  className="inline-block h-7 w-7 sm:h-8 sm:w-8 rounded-full ring-2 ring-[#74D600] object-cover shadow-sm"
+                  src="https://res.cloudinary.com/ddm7iixid/image/upload/v1787549331/4test_qkf23j.jpg"
+                  alt="Chinedu Okafor"
+                  referrerPolicy="no-referrer"
                 />
               </div>
               <div className="text-left leading-tight">

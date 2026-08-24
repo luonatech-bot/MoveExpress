@@ -254,14 +254,14 @@ export const Footer: React.FC<FooterProps> = ({
             <ul className="space-y-2.5 text-slate-300">
               <li className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#74D600] shrink-0" />
-                <a href="tel:+2349059876543" className="hover:text-[#74D600] transition-colors font-medium">
-                  +234 905 987 6543
+                <a href="tel:+2348167629156" className="hover:text-[#74D600] transition-colors font-medium">
+                  +234 816 762 9156
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
                 <WhatsAppIcon className="w-4 h-4 text-[#25D366] shrink-0" />
-                <a href="https://wa.me/2349059876543?text=Hello%20ExpressMove,%20I%20need%20moving%20assistance" target="_blank" rel="noreferrer" className="hover:text-[#74D600] transition-colors font-medium">
-                  +234 905 987 6543 (WhatsApp)
+                <a href="https://wa.me/2348167629156?text=Hello%20ExpressMove,%20I%20need%20moving%20assistance" target="_blank" rel="noreferrer" className="hover:text-[#74D600] transition-colors font-medium">
+                  +234 816 762 9156 (WhatsApp)
                 </a>
               </li>
               <li className="flex items-center gap-2.5">

@@ -131,13 +131,13 @@ export const SupportView: React.FC<SupportViewProps> = ({
               </p>
             </div>
             <a
-              href="https://wa.me/2349059876543?text=Hello%20ExpressMove%20Support,%20I%20need%20assistance%20with%20my%20relocation"
+              href="https://wa.me/2348167629156?text=Hello%20ExpressMove%20Support,%20I%20need%20assistance%20with%20my%20relocation"
               target="_blank"
               rel="noreferrer"
               className="mt-2 w-full py-2.5 rounded-xl bg-[#25D366] hover:bg-[#20ba5a] text-white text-xs font-bold text-center flex items-center justify-center gap-2 transition-all shadow-xs"
             >
               <WhatsAppIcon className="w-4 h-4 text-white" />
-              <span>Open WhatsApp (+234 905 987 6543)</span>
+              <span>Open WhatsApp (+234 816 762 9156)</span>
             </a>
           </div>
 
@@ -154,16 +154,16 @@ export const SupportView: React.FC<SupportViewProps> = ({
             </div>
             <div className="space-y-1.5 pt-2">
               <a
-                href="tel:+2349059876543"
+                href="tel:+2348167629156"
                 className="w-full py-2 rounded-xl bg-slate-50 hover:bg-slate-100 border border-slate-200 text-slate-900 text-xs font-bold text-center block transition-all font-mono"
               >
-                Hotline: +234 905 987 6543
+                Hotline: +234 816 762 9156
               </a>
               <a
-                href="tel:+2349059876543"
+                href="tel:+2348167629156"
                 className="w-full py-2 rounded-xl bg-slate-50 hover:bg-slate-100 border border-slate-200 text-slate-900 text-xs font-bold text-center block transition-all font-mono"
               >
-                Direct: 0905 987 6543
+                Direct: 0816 762 9156
               </a>
             </div>
           </div>

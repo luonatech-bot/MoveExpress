@@ -67,9 +67,9 @@ export const StatsCounterSection: React.FC<StatsCounterSectionProps> = ({
   ];
 
   return (
-    <section className="bg-white border-b border-slate-200/80 py-8 sm:py-10 relative overflow-hidden">
+    <section className="bg-[#F6FCF0] border-b border-[#74D600]/25 py-8 sm:py-10 relative overflow-hidden">
       {/* Background Accent Gradients */}
-      <div className="absolute top-1/2 left-0 -translate-y-1/2 w-64 h-64 bg-[#74D600]/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-1/2 left-0 -translate-y-1/2 w-64 h-64 bg-[#74D600]/10 rounded-full blur-3xl pointer-events-none" />
       <div className="absolute top-1/2 right-0 -translate-y-1/2 w-64 h-64 bg-emerald-600/5 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -89,13 +89,13 @@ export const StatsCounterSection: React.FC<StatsCounterSectionProps> = ({
           {stats.map((stat) => (
             <div
               key={stat.id}
-              className="bg-slate-50/70 hover:bg-white rounded-2xl p-4 sm:p-5 border border-slate-200/90 hover:border-emerald-300 hover:shadow-md transition-all duration-300 flex flex-col justify-between space-y-2 group"
+              className="bg-white/95 hover:bg-white rounded-2xl p-4 sm:p-5 border border-[#74D600]/40 hover:border-[#74D600] shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col justify-between space-y-2 group"
             >
               <div className="flex items-center justify-between">
-                <div className="w-10 h-10 rounded-xl bg-white shadow-xs border border-slate-100 flex items-center justify-center group-hover:scale-105 transition-transform">
+                <div className="w-10 h-10 rounded-xl bg-emerald-50/70 shadow-xs border border-emerald-100 flex items-center justify-center group-hover:scale-105 transition-transform">
                   {stat.icon}
                 </div>
-                <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-emerald-100/80 text-[#052314]">
+                <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-md bg-[#74D600]/25 text-[#052314] border border-[#74D600]/40">
                   {stat.badge}
                 </span>
               </div>
@@ -104,10 +104,10 @@ export const StatsCounterSection: React.FC<StatsCounterSectionProps> = ({
                 <div className="text-2xl sm:text-3xl font-black text-[#0B2E18] tracking-tight font-['Plus_Jakarta_Sans',sans-serif]">
                   {stat.value}
                 </div>
-                <div className="text-xs font-bold text-slate-800 mt-0.5">
+                <div className="text-xs font-bold text-slate-900 mt-0.5">
                   {stat.label}
                 </div>
-                <div className="text-[11px] text-slate-500 font-medium">
+                <div className="text-[11px] text-emerald-900/80 font-medium">
                   {stat.subtext}
                 </div>
               </div>

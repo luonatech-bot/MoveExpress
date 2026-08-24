@@ -64,9 +64,9 @@ export const Navbar: React.FC<NavbarProps> = ({
             <span className="w-2 h-2 rounded-full bg-[#74D600] inline-block animate-pulse" />
             24/7 Fast Dispatch Active
           </span>
-          <a href="tel:+2349059876543" className="inline-flex items-center gap-1 font-bold text-white hover:text-[#74D600] transition-colors">
+          <a href="tel:+2348167629156" className="inline-flex items-center gap-1 font-bold text-white hover:text-[#74D600] transition-colors">
             <Phone className="w-3 h-3 text-[#74D600]" />
-            <span>+234 905 987 6543</span>
+            <span>+234 816 762 9156</span>
           </a>
         </div>
       </div>
@@ -107,11 +107,11 @@ export const Navbar: React.FC<NavbarProps> = ({
           <div className="hidden md:flex items-center gap-3">
             {/* Phone Number with Phone Icon */}
             <a
-              href="tel:+2349059876543"
+              href="tel:+2348167629156"
               className="flex items-center gap-1.5 text-xs sm:text-sm font-bold text-slate-800 hover:text-[#16A34A] transition-colors px-2 py-1"
             >
               <Phone className="w-4 h-4 text-[#16A34A] fill-[#16A34A]" />
-              <span>+234 905 987 6543</span>
+              <span>+234 816 762 9156</span>
             </a>
 
             {/* Primary CTA Button: Get A Quote -> */}
@@ -168,20 +168,20 @@ export const Navbar: React.FC<NavbarProps> = ({
 
           <div className="pt-2 flex flex-col gap-2">
             <a
-              href="tel:+2349059876543"
+              href="tel:+2348167629156"
               className="py-2.5 px-3 rounded-xl bg-slate-100 border border-slate-200 text-slate-900 text-xs font-bold flex items-center justify-center gap-2"
             >
               <Phone className="w-4 h-4 text-[#16A34A]" />
-              <span>Call Dispatch: +234 905 987 6543</span>
+              <span>Call Dispatch: +234 816 762 9156</span>
             </a>
             <a
-              href="https://wa.me/2349059876543?text=Hello%20ExpressMove,%20I%20need%20a%20moving%20quote"
+              href="https://wa.me/2348167629156?text=Hello%20ExpressMove,%20I%20need%20a%20moving%20quote"
               target="_blank"
               rel="noreferrer"
               className="py-2.5 px-3 rounded-xl bg-[#25D366]/15 border border-[#25D366]/30 text-[#15803D] text-xs font-bold flex items-center justify-center gap-2"
             >
               <WhatsAppIcon className="w-4 h-4 text-[#25D366]" />
-              <span>Chat on WhatsApp (+234 905 987 6543)</span>
+              <span>Chat on WhatsApp (+234 816 762 9156)</span>
             </a>
           </div>
         </div>

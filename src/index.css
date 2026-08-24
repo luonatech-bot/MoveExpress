@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@layer base {
+  @media (max-width: 639px) {
+    body {
+      font-size: 17px;
+    }
+  }
+}
+
+@media (max-width: 639px) {
+  /* Increase non-heading font sizes by 1px on mobile across utility classes */
+  .text-\[9px\] { font-size: 10px !important; }
+  .text-\[10px\] { font-size: 11px !important; }
+  .text-\[11px\] { font-size: 12px !important; }
+  .text-xs { font-size: 13px !important; }
+  .text-sm { font-size: 15px !important; }
+  .text-base:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) { font-size: 17px !important; }
+}
+

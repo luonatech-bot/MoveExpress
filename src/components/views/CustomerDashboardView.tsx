@@ -765,7 +765,7 @@ export const CustomerDashboardView: React.FC = () => {
                 <div className="p-4 rounded-2xl bg-[#EFF6FF] border border-[#DBEAFE] space-y-2 text-xs text-[#1E40AF]">
                   <strong className="block text-sm">Need urgent help during active transit?</strong>
                   <p>
-                    Call our 24/7 dedicated dispatch hotline directly at <strong>+234 905 987 6543</strong> or WhatsApp our operations center for immediate assistance.
+                    Call our 24/7 dedicated dispatch hotline directly at <strong>+234 816 762 9156</strong> or WhatsApp our operations center for immediate assistance.
                   </p>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">

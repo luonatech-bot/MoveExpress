@@ -218,7 +218,7 @@ export const RefundPolicyView: React.FC<RefundPolicyViewProps> = ({
           
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
             <a
-              href="https://wa.me/2349059876543?text=Hello%20ExpressMove%20Billing,%20I%20would%20like%20to%20request%20assistance%20regarding%20my%20booking%20or%20refund"
+              href="https://wa.me/2348167629156?text=Hello%20ExpressMove%20Billing,%20I%20would%20like%20to%20request%20assistance%20regarding%20my%20booking%20or%20refund"
               target="_blank"
               rel="noreferrer"
               className="py-3 px-4 rounded-xl bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold text-xs flex items-center justify-center gap-2 shadow-xs transition-all"
@@ -227,11 +227,11 @@ export const RefundPolicyView: React.FC<RefundPolicyViewProps> = ({
               <span>Chat with Billing Desk on WhatsApp</span>
             </a>
             <a
-              href="tel:+2349059876543"
+              href="tel:+2348167629156"
               className="py-3 px-4 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-xs transition-all"
             >
               <Phone className="w-4 h-4 text-[#74D600]" />
-              <span>Call Hotline: +234 905 987 6543</span>
+              <span>Call Hotline: +234 816 762 9156</span>
             </a>
           </div>
 
